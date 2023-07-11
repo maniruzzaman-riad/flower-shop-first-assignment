@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.primary-button{
+    background-color: #E55473;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+/* header style start */
+.header-main{
+    background-color: #FCEEF1;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding-top: 40px;
+}
+.header-title{
+    font-weight:bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Our Featured Flowers style */
+.flower-tree{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    text-align: center;
+}
+.tree-wrap{
+    margin: 0px 150px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.tree-wrap > h2{
+    margin-bottom: 20px;
+    font-weight:bold;
+    font-size: 30px;
+}
+.tree-wrap > p{
+    margin-bottom: 50px;
+}
+.pink-tree{
+    background-color: #F1DDE7;
+}
+.red-tree{
+    background-color: #D9EFF0;
+}
+.yellow-tree{
+    
+    background-color: #E3EBDB;
+}
+.tree-box{
+    height: 500px;
+    width: 400px;
+    border-radius: 300px 300px 0 0;
+    padding: 40px 40px 0 40px ;
+}
+.tree-box img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.tree-box h4 a{
+    color: black;
+}
