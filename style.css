@@ -11,7 +11,7 @@
     margin-top: 20px;
     border: none;
 }
-/* header style start */
+/* -----------------------header style start------------------- */
 .header-main{
     background-color: #FCEEF1;
 }
@@ -73,4 +73,99 @@
 }
 .tree-box h4 a{
     color: black;
+}
+
+/* ---------Hot deal section style------------- */
+.hot-deal-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    margin: 0px 150px;
+}
+.hot-deal{
+    background-color: #FDF6F8; 
+    margin-top: 70px;
+}
+.hot-deal-title{
+    text-align: center;
+}
+.hot-deal-title > h2{
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.red-text{
+    color: #E55473;
+}
+
+/* --------------Instagram section style------------- */
+
+.Instagram-group{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.Instagram-box{
+    width: 280px;
+}
+.Instagram-box img{
+    width: 280px;
+}
+.Instagram-wrap{
+    width: 1050px;
+    margin: 0 auto;
+    /* margin: 0px 150px; */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+.Instagram-wrap > h2{
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.Instagram-wrap > p{
+    margin-bottom: 20px;
+}
+
+/*----------------- Get The Latest Deals section style ------------------------*/
+
+.deals-wrap{
+    background-image: url(images/Rectangle9.png);
+    background-size: 100%;
+    height: 450px;
+    width: 1197px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: center; 
+    
+}
+.deals-title{
+    position:relative;
+    top: 100px;
+    
+}
+.deals-title > h2 {
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.deals-title > p{
+    margin-bottom: 30px;
+}
+.Subscribe input{
+    padding: 15px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.subscribe-btn{
+    background-color: #E55473;
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
 }
