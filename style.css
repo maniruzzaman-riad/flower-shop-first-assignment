@@ -169,3 +169,63 @@
     color: white;
     border: none;
 }
+/* -----------------contuct form style------this is extra section------------- */
+.contuct-wrap{
+    width: 500px;
+    margin: 0 auto;
+}
+.contuct{
+    text-align: center;
+}
+.contuct-wrap input{
+    display: block;
+}
+.contuct > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.contuct-full{
+    background-color: #eeebeb;
+    padding-bottom: 40px;
+}
+.contuct h2{
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+    color: #d80f3a;
+}
+.contuct p{
+    margin-bottom: 30px;
+    font-weight:bold;
+    font-size: 15px;
+}
+.contuct-title{
+    font-size: 35px;
+    color: blue;
+}
+/* --------------------This is footer section style------------------ */
+.footer{
+    background-color: #111010;
+    text-align: center;
+    color: #DBDBDB;
+    padding-top: 70px;
+}
+.footer-title{
+    color: #B3445B;
+}
+.footer h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer h4{
+    margin-bottom: 30px;
+}
+.footer p{
+    padding-bottom: 90px;
+    color: #6A6969;
+}
